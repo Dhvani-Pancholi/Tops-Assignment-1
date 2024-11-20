@@ -2,6 +2,8 @@
 #include<stdio.h>
 
 void main(){
-    int b = 4;
+ int b; 
+    printf("Enter the value: ");
+    scanf("%d", &b);
     printf("Area of Square %d\n",b*b);
 }

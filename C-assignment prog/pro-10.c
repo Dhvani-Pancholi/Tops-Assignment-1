@@ -1,11 +1,17 @@
 // find the area of a rectangular prism formula : A=2(wl+hl+hw)
 
-#include<stdio.h>
+#include <stdio.h>
 
-void main(){
-    float width = 5.0;  
-    float length = 3.3;  
-    float height = 4.8; 
+void main()
+{
+    float width, length, height;
+    printf("Enter the value of width: ");
+    scanf("%f", &width);
+    printf("Enter the value of length: ");
+    scanf("%f", &length);
+    printf("Enter the value of height: ");
+    scanf("%f", &height);
+
     float area;
 
     area = 2 * (width * length + height * length + height * width);

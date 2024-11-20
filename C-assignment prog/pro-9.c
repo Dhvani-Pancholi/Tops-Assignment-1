@@ -3,9 +3,14 @@
 #include <stdio.h>
 
 void main() {
-    float a = 3.6; 
-    float b = 4; 
-    float c = 5.3; 
+    float a,b,c;
+    printf("Enter the value of a: ");
+    scanf("%f",&a);
+    printf("Enter the value of b: ");
+    scanf("%f",&b);
+    printf("Enter the value of c: ");
+    scanf("%f",&c);
+
     float circumference;
 
     circumference = a + b + c;

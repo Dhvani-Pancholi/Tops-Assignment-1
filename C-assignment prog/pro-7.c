@@ -1,13 +1,18 @@
 //  Find area of Rectangle Formula : A=wl
 
-#include<stdio.h>
+#include <stdio.h>
 
-void main(){
-    float w = 12.6; 
-    float l = 15.5;  
-    float area;
+void main()
+{
+    float w, l;
 
-    area = w*l;
+    printf("Enter the value of W : ");
+    scanf("%f", &w);
 
-    printf("The area of the Rectangle is: %.2f\n", area);
+    printf("Enter the value of L: ");
+    scanf("%f", &l);
+
+    float area = w * l;
+
+    printf("The area of the rectangle is: %.2f\n", area);
 }

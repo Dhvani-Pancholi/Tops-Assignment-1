@@ -8,10 +8,7 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-    printf("Powers of %d:\n", n);
-    printf("%d^1 = %d\n", n, n);
-    printf("%d^2 = %d\n", n, n * n);
-    printf("%d^3 = %d\n", n, n * n * n);
+    printf("first 3 power of  %d are %d , %d , %d", n,n, n * n, n * n * n);
 
     return 0;
 }

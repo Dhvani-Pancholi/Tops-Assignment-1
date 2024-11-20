@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "PRO-18.C": "cpp"
+        "PRO-18.C": "cpp",
+        "random": "c"
     }
 }

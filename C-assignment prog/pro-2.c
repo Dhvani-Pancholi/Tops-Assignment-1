@@ -4,8 +4,12 @@
 #include<stdio.h>
 
 void main(){
-    int a = 50;
-    int b = 20;
+   int a, b;
+    printf("Enter the first number: ");
+    scanf("%d", &a);
+    printf("Enter the second number: ");
+    scanf("%d", &b);
+
 
     printf("The sum of given number is %d\n",a+b);
     printf("The subtraction of given number is %d\n",a-b);

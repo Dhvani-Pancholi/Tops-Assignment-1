@@ -1,10 +1,13 @@
 // Find ascii value of given number
 
-#include<stdio.h>
+#include <stdio.h>
 
-void main(){
+void main()
+{
+    char c;
 
-    char c = '5';
-    int i = (int)c;
-    printf("Character value from ascii is: %d\n",i);
+    printf("Enter a character: ");
+    scanf("%c", &c);
+
+    printf("The Ascii value of '%c' is: %d\n", c, (int)c);
 }

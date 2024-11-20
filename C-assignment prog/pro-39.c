@@ -1,6 +1,5 @@
 // Find the Character Is Vowel or Not
 
-
 #include<stdio.h>
 void main()
 {

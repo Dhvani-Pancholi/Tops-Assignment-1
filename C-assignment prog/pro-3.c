@@ -3,8 +3,11 @@
 #include<stdio.h>
 
 void main(){
-    int r=4;
-    printf("The area of circle is: %f\n",3.14*r*r);
-    printf("The circumtance of circle is: %f\n",2*3.14*r);
+    float r; 
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &r);
+
+    printf("The area of circle is: %.2f\n",3.14*r*r);
+    printf("The circumtance of circle is: %.2f\n",2*3.14*r);
 
 }

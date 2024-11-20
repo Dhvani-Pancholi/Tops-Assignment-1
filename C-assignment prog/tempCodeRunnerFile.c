@@ -1,35 +1,10 @@
-// WAP to reverse a string and check that the string is palindromedrome or not
+// WAP to Find Area And Circumference of Circle
 
-#include <stdio.h>
-#include <string.h>
-char str[50];
-int palindrome()
-{
-    int length, palindrome = 1;
-    length = strlen(str);
-    length = length - 1;
-    for (int i = 0; str[i] < str[length]; i++)
-    {
-        if (str[i] != str[length])
-        {
-            palindrome = 0;
-        }
-    }
+#include<stdio.h>
 
-    if (palindrome == 1)
-    {
-        printf("\nString is palindrome.");
-    }
-    else
-    {
-        printf("\nString is not palindrome");
-    }
-}
+void main(){
+    int r=4;
+    printf("The area of circle is: %f\n",3.14*r*r);
+    printf("The circumtance of circle is: %f\n",2*3.14*r);
 
-int main()
-{
-    printf("Enter String : ");
-    gets(str);
-    palindrome();
-    return 0;
 }

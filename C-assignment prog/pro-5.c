@@ -3,7 +3,10 @@
 #include<stdio.h>
 
 void main(){
-    int a = 6;
+    int a; 
+    printf("Enter the value: ");
+    scanf("%d", &a);
+    
     int area = 6*(a*a);
     printf("Area of cube is: %d\n",area);  
 }
