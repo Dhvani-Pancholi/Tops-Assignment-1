@@ -22,6 +22,7 @@ void main()
 
     case 2:
         printf("This month have 28/29 days ");
+        break;
 
     case 4:
     case 6:

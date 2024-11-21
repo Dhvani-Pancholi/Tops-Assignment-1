@@ -2,17 +2,17 @@
 
 #include<stdio.h>
 void main(){
-    int year,days;
+    float year,days;
     
     printf("Enter year:");
-    scanf("%d", &year);
+    scanf("%f", &year);
 
     days = year*365;
-    printf("Days is : %d\n",days);
+    printf("Days is : %f\n",days);
 
     printf("Enter days:");
-    scanf("%d", &days);
+    scanf("%f", &days);
 
     year = days/365;
-    printf("years is : %d\n",year);
+    printf("years is : %f\n",year);
 }

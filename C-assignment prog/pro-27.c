@@ -2,11 +2,12 @@
 
 #include<stdio.h>
 void main(){
-    int days,month;
+    float days;
+    float month;
     
-    printf("Enter days:");
-    scanf("%d", &days);
+    printf("Enter days: ");
+    scanf("%f", &days);
 
-    month = days/30;
-    printf("Days divided by month is : %d\n",month);
+    month = days / 30.0;
+    printf("Days divided by month is: %.2f\n", month);
 }

@@ -53,7 +53,7 @@ public:
         }
     }
 
-    void display() const
+    void display() 
     {
         cout << "Name: " << name << endl;
         cout << "Balance:" << balance << endl;

@@ -12,19 +12,13 @@ private:
     string country;
 
 public:
-    void setname(string _name)
+    void setperson(string _name,int _age,string _country)
     {
         name = _name;
+         age = _age;
+         country = _country;
     }
-    void setage(int _age)
-    {
-        age = _age;
-    }
-    void setcountry(string _country)
-    {
-        country = _country;
-    }
-
+   
     string getname()
     {
         return name;
@@ -41,9 +35,7 @@ public:
 int main()
 {
     person p1;
-    p1.setname("jethalal gada");
-    p1.setage(48);
-    p1.setcountry("Mumbai");
+    p1.setperson("jethalal gada",48,"mumbai");
 
     cout << "Name: " << p1.getname() << endl;
     cout << "Age: " << p1.getage() << endl;

@@ -2,14 +2,14 @@
 
 #include<stdio.h>
 void main(){
-    int year,days,month;
+    float year,days,month;
     
     printf("Enter year:");
-    scanf("%d", &year);
+    scanf("%f", &year);
 
     days = year*365;
-    printf("Days is : %d\n",days);
+    printf("Days is : %f\n",days);
 
     month = year*12;
-    printf("Month is : %d\n",month);
+    printf("Month is : %f\n",month);
 }
