@@ -1,31 +1,34 @@
-// Write a program to find the multiplication values and the cubic values using inline function
+// 1. Variables and Constants
+// Write a C++ program that demonstrates the use of variables and constants. Create
+// variables of different data types and perform operations on them.
 
 #include <iostream>
 using namespace std;
 
-inline int multiply(int a, int b)
-{
-    return a * b;
-}
-
-inline int cube(int x)
-{
-    return x * x * x;
-}
-
 int main()
 {
-    int n1, n2, n;
 
-    cout << "Enter two numbers for multiplication: ";
-    cin >> n1 >> n2;
+    int a = 10;
+    float b = 5.5;
+    double c = 15.75;
+    char d = 'A';
+    string e = "Hello";
 
-    cout << "Multiplication of given value is: " << multiply(n1, n2) << endl;
+    const float PI = 3.14;
 
-    cout << "Enter a number for cube: ";
-    cin >> n;
+    a += 5;
+    b *= 2;
+    c -= 10;
 
-    cout << "Cube of given value is: " << cube(n) << endl;
+    cout << "Integer: " << a << endl;
+    cout << "Float: " << b << endl;
+    cout << "Double: " << c << endl;
+    cout << "Character: " << d << endl;
+    cout << "String: " << e << endl;
+
+    float r = 3.0;
+    float circleArea = PI * r * r;
+    cout << "Area of a circle is : " << circleArea << endl;
 
     return 0;
 }

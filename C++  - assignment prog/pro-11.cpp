@@ -1,45 +1,59 @@
-// Write a C++ program to create a class called Car that has private member variables for company, model, and year.
-//  Implement member functions to get and set these variables
+// Operator Demonstration
+// Write a C++ program that demonstrates arithmetic, relational, logical, and bitwise
+// operators. Perform operations using each type of operator and display the results
+
 
 #include <iostream>
 using namespace std;
+int main(){
+    int a, b;
+    bool result;
 
-class Car
-{
-private:
-    string company;
-    int model;
-    int year;
+    cout << "Enter the value for a: ";
+    cin >> a;
+    cout << "Enter the value for b: ";
+    cin >> b;
 
-public:
-    void setcar(string _company, int _model, int _year)
-    {
-        company = _company;
-        model = _model;
-        year = _year;
-    }
+    cout << "\nArithmetic Operators:" << endl;
+    cout << "a + b = " << a + b << endl; 
+    cout << "a - b = " << a - b << endl;  
+    cout << "a * b = " << a * b << endl;  
+    cout << "a / b = " << a / b << endl;  
+    cout << "a % b = " << a % b << endl;  
+    cout << endl;
 
-    string getcompany()
-    {
-        return company;
-    }
-    int getmodel()
-    {
-        return model;
-    }
-    int getyear()
-    {
-        return year;
-    }
-};
 
-int main()
-{
-    Car c1;
-    c1.setcar("Ford", 123, 2000);
+    cout << "Relational Operators:" << endl;
+    cout << "a == b: " << (a == b) << endl;
+    cout << "a != b: " << (a != b) << endl;  
+    cout << "a > b: " << (a > b) << endl;    
+    cout << "a < b: " << (a < b) << endl;    
+    cout << "a >= b: " << (a >= b) << endl; 
+    cout << "a <= b: " << (a <= b) << endl;  
+    cout << endl;
 
-    cout << "company: " << c1.getcompany() << endl;
-    cout << "model: " << c1.getmodel() << endl;
-    cout << "year: " << c1.getyear() << endl;
+  
+    cout << "Logical Operators:" << endl;
+    result = (a > b) && (b > 0); 
+    cout << "(a > b) && (b > 0): " << result << endl;
+
+    result = (a > b) || (b < 0);
+    cout << "(a > b) || (b < 0): " << result << endl;
+
+    result = !(a == b); 
+    cout << "!(a == b): " << result << endl;
+    cout << endl;
+
+
+    cout << "Bitwise Operators:" << endl;
+    cout << "a & b = " << (a & b) << endl; 
+    cout << "a | b = " << (a | b) << endl;  
+    cout << "a ^ b = " << (a ^ b) << endl;  
+    cout << "~a = " << (~a) << endl;      
+    cout << "a << 1 = " << (a << 1) << endl; 
+    cout << "a >> 1 = " << (a >> 1) << endl;  
+    cout << endl;
+
     return 0;
+
 }

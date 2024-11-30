@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "PRO-18.C": "cpp",
-        "random": "c"
+        "random": "c",
+        "iostream": "cpp"
     }
 }
