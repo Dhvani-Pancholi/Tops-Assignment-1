@@ -1,6 +1,5 @@
 <h4>What is a function in C++? Explain the concept of function declaration, definition, and calling.</h4>
 
-
 - A function is a block of code which only runs when it is called.
 
 - You can pass data, known as parameters, into a function.

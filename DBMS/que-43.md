@@ -1,0 +1,1 @@
+####  Revoke the INSERT permission from user1 and give it to user2

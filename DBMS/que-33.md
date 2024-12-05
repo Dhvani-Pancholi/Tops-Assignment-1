@@ -1,0 +1,1 @@
+#### Update the course duration of a specific course using the UPDATE command

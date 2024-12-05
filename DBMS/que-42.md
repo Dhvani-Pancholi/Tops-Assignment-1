@@ -1,0 +1,1 @@
+####  Create two new users user1 and user2 and grant user1 permission to SELECT from the courses table

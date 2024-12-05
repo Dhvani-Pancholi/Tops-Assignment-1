@@ -1,0 +1,1 @@
+#### What are the implications of dropping a table from a database?

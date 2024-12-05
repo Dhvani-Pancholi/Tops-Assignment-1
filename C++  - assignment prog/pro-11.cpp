@@ -32,7 +32,6 @@ int main(){
     cout << "a <= b: " << (a <= b) << endl;  
     cout << endl;
 
-  
     cout << "Logical Operators:" << endl;
     result = (a > b) && (b > 0); 
     cout << "(a > b) && (b > 0): " << result << endl;

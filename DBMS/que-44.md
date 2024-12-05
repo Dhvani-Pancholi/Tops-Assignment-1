@@ -1,0 +1,1 @@
+#### What is the purpose of the COMMIT and ROLLBACK commands in SQL?

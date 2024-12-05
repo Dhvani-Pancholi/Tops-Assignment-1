@@ -1,0 +1,1 @@
+#### Explain how transactions are managed in SQL databases.
