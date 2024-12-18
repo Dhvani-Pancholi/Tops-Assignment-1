@@ -1,0 +1,10 @@
+#### Write a PL/SQL block to print the total number of employees from the employees table.
+
+```plsql
+DECLARE
+    total_employees NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO total_employees FROM employees;
+    DBMS_OUTPUT.PUT_LINE('Total number of employees: ' || total_employees);
+END;
+```

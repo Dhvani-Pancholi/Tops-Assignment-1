@@ -12,4 +12,6 @@ Constraints are the rules that we can apply on the type of data in a table. That
 
 <b>FOREIGN KEY</b> - Prevents actions that would destroy links between tables
 
-<b>CHECK</b> - Ensures that the value in a column matches the criteria specified in
+<b>COMPOSITE KEY</b>- A composite key is made by the combination of two or more columns in a table that can be used as primary key.
+
+

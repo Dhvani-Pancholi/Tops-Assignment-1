@@ -10,7 +10,6 @@ void main(){
     printf("Enter the second number: ");
     scanf("%d", &b);
 
-
     printf("The sum of given number is %d\n",a+b);
     printf("The subtraction of given number is %d\n",a-b);
     printf("The multiplication of given number is %d\n",a*b);

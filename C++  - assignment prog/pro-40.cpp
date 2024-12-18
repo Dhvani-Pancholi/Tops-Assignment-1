@@ -41,7 +41,7 @@ public:
     void display()
     {
         Person::display();
-        std::cout << "Roll No: " << roll_no << endl;
+        cout << "Roll No: " << roll_no << endl;
     }
 };
 

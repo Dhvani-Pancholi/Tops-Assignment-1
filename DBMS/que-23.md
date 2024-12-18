@@ -17,7 +17,6 @@ MODIFY COLUMN column_name new_datatype;
 To remove an existing column from a table, use the DROP COLUMN clause.
 
 ```sql
-
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```

@@ -1,4 +1,4 @@
-#### What are the basic components of SQL syntax?
+#### What are the basic components of SQL?
 
 ##### 1. Data Definition Language (DDL)
 
